@@ -1,20 +1,22 @@
-/* ==========================================================================
-   Base Element Styles
+.carousel { overflow: hidden; }
+
+.item { overflow: hidden: }
+
+* ==========================================================================
+   MEDIA QUERIES
    ========================================================================== */
 
-body {
-  text-align: center;
+/* Portrait & Landscape Phone*/
+@media (max-width: 480px) {
+
 }
 
-h1 {
-  font-size: 72px;
-  color: purple;
+/* Landscape Phone to Portrait Tablet */
+@media (max-width: 768px) {
+
 }
 
-header {
-  background-color: orange;
-}
+/* Large Desktop */
+@media (min-width: 1200px) {
 
-p {
-  font-size: 20px;
 }
